@@ -1,0 +1,50 @@
+.calender-main-container {
+  max-width: 800px;
+  border-radius: 5px;
+  border: 2px solid #5e5353;
+  height: fit-content;
+  margin: 10px auto;
+}
+
+.calnder-header {
+  height: 50px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 18px;
+}
+
+.month-dropdown {
+  margin: 20px;
+  font-weight: bold !important;
+}
+.calender-month {
+  display: flex;
+  align-items: center;
+}
+
+.add-holiday-btn {
+  margin-right: 50px;
+}
+
+.days-row {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+.day-text {
+  margin: 30px 40px;
+}
+
+.holiday {
+  border: 1px solid red;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
